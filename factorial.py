@@ -1,3 +1,4 @@
 import math
 a=int(input())
-print(math.factorial(a))
+if a<=20:
+  print(math.factorial(a))
