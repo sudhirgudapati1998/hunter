@@ -1,3 +1,8 @@
 import string
+c=[]
 a=input()
-string.capwords(a)
+c=string.capwords(a)
+for i in c:
+    print(i,end="")
+
+   
